@@ -3,6 +3,7 @@
       Mid-Term Exam
       Author: Shankar Sigdel
       Student ID: 301110925
+      app.js a Travel Report
       Date:   2020-07-09
 */
 
@@ -27,31 +28,36 @@ document.getElementById("Ithaca").innerHTML="Most famous for being the home of O
 document.getElementById("Gavdos").innerHTML="Near the more well-known Crete, Gavdos is the most southern island in Greece — and the most southern spot in Europe discounting the Canaries. Only accessible by ferry, the remote island has only about 50 permanent residents, and can feel like your private playground. Local legend has it that the island was the home of goddess Calypso, who kept Odysseus prisoner here. Today, a favorite tourist activity is to visit the spot believed to be her cave. Be warned, you won't find any luxury hotels here. While the romantically under-developed, super laid back island has a number of rooms for rent, those are limited, as the real draw here for many is the free, seaside camping.";
 
 //Contact Section form data stored in variables
+      //First Name
       let fitstName=document.getElementById('firstName');
       document.getElementById('contactForm').addEventListener('submit', function (e){
       e.preventDefault();
       console.log(firstName.value);
 });
+      //Last Name
       let lastName=document.getElementById('lastName');
       document.getElementById('contactForm').addEventListener('submit', function (e){
       e.preventDefault();
       console.log(lastName.value);
 });     
-    let contactNumber=document.getElementById('contactNumber');
+      //Contact Number
+      let contactNumber=document.getElementById('contactNumber');
       document.getElementById('contactForm').addEventListener('submit', function (e){
       e.preventDefault();
       console.log(contactNumber.value); 
 });     
-      
+      // Email
       let email=document.getElementById('email');
       document.getElementById('contactForm').addEventListener('submit', function (e){
       e.preventDefault();
       console.log(email.value);
 });
+      // Short Message Here
       let shortMessage=document.getElementById('yourMessage');
       document.getElementById('contactForm').addEventListener('submit', function (e){
       e.preventDefault();
       console.log(shortMessage.value);
 });
+      
 
 })();

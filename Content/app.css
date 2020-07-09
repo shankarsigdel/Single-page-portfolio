@@ -1,3 +1,10 @@
+     /*CSS Page 
+      Mid-Term Exam
+      Author: Shankar Sigdel
+      Student ID: 301110925
+      CSS a Travel Report
+      Date:   2020-07-09*/
+
 /* custom syle sheet */
 
 .navbar {
@@ -21,3 +28,7 @@ article, section {
 #contactForm {
     margin-bottom: 4em;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
