@@ -1,10 +1,3 @@
-      <!--HTML Page 
-      Mid-Term Exam
-      Author: Shankar Sigdel
-      Student ID: 301110925
-      index.html a Travel Report
-      Date:   2020-07-09-->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,190 +9,345 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./Content/app.css">
-    <title>COMP125 - MidTerm Test</title>
+    <title>Shankar Sigdel - Portfolio</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--Main Nav Bar Section-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">
-            <i class="fa fa-globe fa-lg"></i>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#"><img src="../../Assets/images/Logo.png" width="70" height="45" alt="">SHANKAR SIGDEL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#mainContent">
-                        <i class="fa fa-map-signs fa-lg"></i> TOUR</a>
+                    <a class="nav-link" href="#myintroduction">
+                        <i class="far fa-user-circle"></i> HOME</a>
+                </li>           
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">
+                        <i class="fas fa-user-graduate"></i> EDUCATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">
+                        <i class="fas fa-briefcase"></i> EXPERIENCE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myprojects">
+                        <i class="fas fa-project-diagram"></i> MY PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">
+                        <i class="fas fa-lg fa-users-cog"></i> SKILLS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">
-                        <i class="fa fa-envelope fa-lg"></i> CONTACT</a>
+                        <i class="fas fa-mobile-alt"></i> CONTACT</a>
                 </li>
-            </ul>
-
+            </ul>        
         </div>
     </nav>
-
-    <!-- MAIN CONTENT SECTION -->
-    <main class="container" id="mainContent">
-        <h1 id="MainTitle" class="col-lg-offset-1 col-lg-10">The Travel Report</h1>
-        <h4 class="col-lg-offset-1 col-lg-10">Body copy and image credits: Sophie-Claire Hoeller</h4>
-        <article id="9Islands" class="row">
-            <h2 class="col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">9 Gorgeous Greek Islands</h2>
-            <p id="IntroParagraph" class="col-md-4 col-xs-offset-1 col-xs-10">
-                <!-- Inject your IntroParagraph here -->
-
-            </p>
-            <img class="col-md-6 col-xs-offset-1  col-xs-10" src="Assets/images/milos-greece-colorful-houses.jpg" alt="Milos Greece colorful houses">
-        </article>
-        <hr>
-
-        <section class="row">
-            <p class="col-md-12 col-xs-offset-1 col-xs-10">Here are 9 incredible Greek islands you may not have heard of, but should have on your radar.</p>
+    <!--Main Content home page Section added Jumbotron-->
+    <main class="container" >
+        <section id="myintroduction">
+            <div class="jumbotron">
+                <div class="content">
+                    <br>
+                    <h4 class="title">WELCOME TO MY PORTFOLIO</h4>
+                    <hr class="home">
+                    <img src="./Assets/images/shankar.jpg" width="200" height="200" >
+                    <br>
+                    <br>
+                    <h5> PERSONAL INFORMATION </h5>
+                    <div class="personalinfo" id="personalInformation">
+                    </div>
+                    <br>
+                    <h5> MISSION STATEMENT</h5>
+                    <p id="missionstatement"></p>   
+                    </p>
+                    <br>
+                    <h5> PROFESSIONAL SUMMARY </h5>
+                    <div class="professional" id="professionalsummary">
+                    </div>
+                    <br>
+                    <hr class="home">
+                </div>                
+            </div>
         </section>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Folegandros</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/folegandros.jpg" alt="Folegandros">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Folegandros">
-                <!-- Inject your Folegandros paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Alonissos</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/alonissos.jpg" alt="Alonissos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Alonissos">
-                <!-- Inject your Alonissos paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Spetses</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/spetses.jpg" alt="Spetses">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Spetses">
-                <!-- Inject your Spetses paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Amorgos</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/amorgos.jpg" alt="Amorgos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Amorgos">
-                <!-- Inject your Amorgos paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Syros</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/syros.jpg" alt="Syros">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Syros">
-                <!-- Inject your Syros paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Milos</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/milos.jpg" alt="Milos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Milos">
-                <!-- Inject your Milos paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Hydra</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/hydra.jpg" alt="Hydra">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Hydra">
-                <!-- Inject your Hydra paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Ithaca</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/ithaca.jpg" alt="Ithaca">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Ithaca">
-                <!-- Inject your Ithaca paragraph here -->
-            </p>
-        </article>
-        <hr>
-
-        <article class="row">
-            <h2 class="col-md-10 col-xs-offset-1 col-xs-10">Gavdos</h2>
-            <img class="col-md-10 col-xs-offset-1 col-xs-10" src="Assets/images/gavdos.jpg" alt="Gavdos">
-            <p class="col-md-10 col-xs-offset-1 col-xs-10" id="Gavdos">
-                <!-- Inject your Gavdos paragraph here -->
-            </p>
-        </article>
-        <hr>
     </main>
-
-    <!-- CONTACT SECTION -->
-    <div class="container">
-        <section id="contact" class="row">
-
-            <div class="col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10">
-
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">CONTACT US</h3>
+     <!--Main Content Education Page-->
+    <main class="container">
+        <section id="education">
+            <div class="jumbotron">
+                <div class = "aboutme">
+                    <h1 text-align="center" background-color=blue;> 
+                        EDUCATION
+                    </h1>
+                    <hr class="about">
+                    <br>
+                    <div class="col-12 tribhuvanUniversity">
+                        <img width="400" height="250" src="./Assets/images/tribhuvanuniversity.png"> 
+                        <a class="btn btn-primary btn-lg"  href="https://tribhuvan-university.edu.np/" role="button" target=" _blank">
+                            Completed University Degree, From Tribhuvan University, Kathmandu, Nepal
+                        </a>
+                        <div class="unorderlist" id="relevantCourses">
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <form id="contactForm" class="form">
-                            <div class="form-group">
-                                <label for="firstName">First Name</label>
-                                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="lastName">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="contactNumber">Contact Number</label>
-                                <input type="tel" class="form-control" id="contactNumber" name="email" placeholder="Contact Number" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="firstname@lastname.ca" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="comments">Your Message</label>
-                                <textarea class="form-control" rows="5" id="yourMessage" name="comments" placeholder="--Enter Your Comments Here--" required></textarea>
-                            </div>
-                            <div class="text-right">
-                                <button id="sendButton" type="submit" class="btn btn-primary btn-lg"><i class="fas fa-file-import"></i>Send</button>
-                            </div>
-                        </form>
+                    <hr class="about">
+                    <br>
+                    <div class="col-12 centennialCollege">
+                        <img width="400" height="250" src="./Assets/images/centennialcollege.jpg">
+                        <a class="btn btn-primary btn-lg"  href="https://www.centennialcollege.ca/" role="button" target=" _blank">
+                            Completed Software Engineering, From Centennial College, Canada
+                        </a>
+                        <div class="unorderlist" id="releventCourses1">
+                            
+                        </div>
                     </div>
+                    <hr class="about">
                 </div>
             </div>
         </section>
-    </div>
-
+    </main>
+    <!--Main Content Experience page -->
+    <main class="container">
+        <section id="experience">
+            <div class="jumbotron">
+                <div class = "aboutme">
+                    <h1 text-align="center" background-color=blue;> 
+                        WORK EXPERIENCE
+                    </h1>
+                    <hr class="about">
+                    <br>
+                    <div class="col-12 globalcollection">
+                        <img width="400" height="250" src="./Assets/images/customerservice.jpg">
+                        <a class="btn btn-primary btn-lg"  href="https://affglo.com/" role="button" target=" _blank">
+                            Worked as Customer Service at Global Collection, Toronto, ON, Canada
+                        </a>
+                        <div class="unorderlist" id="globalCollection">
+                            
+                        </div>
+                    </div>
+                    <hr class="about">
+                    <br>
+                    <br>
+                    <div class="col-12 tiffany">
+                        <img width="400" height="250" src="./Assets/images/tiffany.jpg">
+                        <a class="btn btn-primary btn-lg"  href="https://www.tiffanyvillage.com/" role="button" target=" _blank">
+                            Worked as a Food and Beverage Aid at Tiffany Village Retirement Living, NL Canada
+                        </a>
+                        <div class="unorderlist" id="tiffanyVillage">
+                        </div>
+                    </div>
+                    <hr class="about">
+                    <br>
+                    <div class="col-12 janabhawana">
+                        <img width="400" height="250" src="./Assets/images/janabhawana.jpg">
+                        <img width="400" height="250" src="./Assets/images/herp.jpg">
+                        <a class="btn btn-primary btn-lg"  href="https://janabhawana.edu.np" role="button" target=" _blank">
+                            Worked as QA & Higher Education Reform Project coordinator, JanaBhawana Campus
+                        </a>
+                        <div class="unorderlist" id="jbcCampus">
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-12 resume">
+                        <a class="btn btn-primary btn-lg" href="Content/PDF/resume.pdf" role="button" target=" _blank">
+                            Resume
+                        </a>
+                    </div>
+                     <hr class="about">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Main Content products page added Jumbotron-->
+    <main class="container">
+        <section id="myprojects">
+            <div class="jumbotron">
+                <h1 style = "text-align: center;">About My Projects</h1>
+                <hr class="product">
+                <div class="row ">
+                    <div class="column">
+                        <img src="./Assets/images/diceroll.png" width="320" height="250">
+                        <p> This Project is to Roll the Dice<br></p>
+                        <div class="card-footer">
+                            <a href="https://shankarsigdel.github.io/COMP125-F-Exam-Dice/" class="btn btn-primary">Dice-Roll
+                            GitHub
+                            </a>
+                        </div>
+                    </div>
+                <div class="column">
+                    <img src="./Assets/images/slotmachine.png" width="320" height="250">
+                    <p> This is the Slot Machine Project. </p>
+                    <div class="card-footer">
+                        <a href="https://shankarsigdel.github.io/COMP125-A4-Slot/" class="btn btn-primary">Sloat-Machine
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="./Assets/images/projectfivepage.png" width="320" height="250">
+                    <p> This is a 5 page project of Web Application</p>
+                    <div class="card-footer">
+                        <a href="https://comp229-1assignment.herokuapp.com/" class="btn btn-primary">Portfolio Heroku</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="./Assets/images/billcalculator.png" width="320" height="250">
+                    <p> This Project is to Calculate the Bill<br></p>
+                </div>
+                <div class="column">
+                    <img src="./Assets/images/meanmachine.png" width="320" height="250">
+                    <p> This is Group Survey Project. </p>
+                    <div class="card-footer">
+                        <a href="https://web-application-final-project.herokuapp.com/" class="btn btn-primary">
+                            Mean-Machine GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="./Assets/images/searchorganization.png" width="320" height="250">
+                    <p> This project searches Organization</p>
+                </div>
+                <div class="col-12 goToTop">
+                    <hr class="product">
+                </div>            
+            </div>
+        </section>
+    </main>
+    <!--Main Content Services page added Jumbotron-->
+    <main class="container" >
+        <section id="skills">
+            <div class="jumbotron" >
+                <h1 class="skills">
+                    ABOUT MY SKILLS
+                </h1>
+                <hr class="services">
+                <div class="row">
+                    <div class="column">
+                        <img src="./Assets/images/qualityassurance.jpg" width="350" height="250">
+                    </div>
+                    <div class="column">
+                        <img src="./Assets/images/webdesign.jpg" width="350" height="250">
+                    </div>
+                    <div class="column">
+                        <img src="./Assets/images/customerservice1.jpg" width="350" height="250">
+                    </div>
+                    <hr class="services">
+                    <h3>
+                        Interest on Software Engineering and Research.
+                    </h3>
+                    <hr class="services">
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="./Assets/images/programming.jpg" width="350" height="250">
+                    </div>
+                    <div class="column">
+                        <img src="./Assets/images/htmlcssjs.jpg" width="350" height="250">
+                    </div>
+                    <div class="column">
+                        <img src="./Assets/images/research.jpg" width="350" height="250">
+                    </div>
+                </div>
+                <br>
+                <div class="col-12 connectwithotherpage">
+                    <a class="btn btn-primary btn-lg" href="https://shankarsigdel.github.io/Web-Projects-Sem-I/" role="button" target=" _blank">
+                        Connect to My other Projects
+                    </a>
+                </div>
+                <hr class="services">
+            </div>
+        </section>
+    </main>
+    <!-- CONTACT SECTION -->
+    <main class="container">
+        <section id="contact">
+            <div class="jumbotron">
+                <div class="myInformation" id="myInfo">                    
+                  </div>
+                  <hr class="about">
+                  <!-- Contact Form -->
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="firstName"><i class="fas fa-file-signature"></i>First Name</label>
+                        <input type="text" class="form-control" id="firstName" aria-describedby="firstName" 
+                        placeholder="Enter your first name" required autofocus>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="lastName"><i class="fas fa-file-signature"></i>Last Name</label>
+                        <input type="text" class="form-control" id="lastName" aria-describedby="lastName"
+                        placeholder="Enter your last name" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationCustom03"><i class="fas fa-envelope"></i>Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Valid Email" required>
+                        <div class="invalid-feedback">
+                          Enter Your Valid Email.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="contactNumber"><i class="fas fa-mobile-alt"></i>Contact Number</label>
+                      <input type="tel" class="form-control" id="contactNumber" aria-describedby="contactNumber"
+                      placeholder="123-456-7890">
+                    </div>
+                    <div class="mb-3">
+                      <label for="validationTextarea"><i class="far fa-comments"></i>Short Message</label>
+                      <textarea class="form-control" id="message" placeholder="Enter Your Message Here"></textarea>
+                    </div>
+                    <div class="submitResetButtons">
+                      <button type="submit" class="btn-outline-info"><i class="fas fa-file-import"></i>Send</button>
+                      <button type="reset" class="btn-outline-warning"><i class="fas fa-redo"></i>Undo</button>
+                    </div>
+                  </form>                
+                </div>
+            </div>
+        </section>
+    </main>
+        <br>
+    <div class="col-12 goToTop">
+        <a class="btn btn-primary btn-lg" href="#Top" role="button" target=" _blank">
+            &uarr; 
+        </a>
+     </div>
     <!-- FOOTER SECTION -->
-    <div class="container">
-        <footer>
-            <nav class="navbar fixed-bottom navbar-light bg-light">
-                <h4>&copy; Copyright:  Shankar Sigdel - 2020, The Travel Report</h4>
-            </nav>
-        </footer>
-    </div>
-
+    <footer>
+        <div class="col-2 offset-2 p-3">
+          <div class="footerContact">
+            <a title="ssigdel2@my.centennialcollege.ca" href="mailto:ssigdel2@my.centennialcollege.ca"><i
+              class="fas fa-envelope-square"></i>&nbsp; 
+              Email</a><br>
+            <a title="https://www.linkedin.com/in/shankar-sigdel-3421b81b7/"
+              href="https://www.linkedin.com/in/shankar-sigdel-3421b81b7/"><i class="fab fa-linkedin"></i>&nbsp;
+              Linkedin</a><br>
+            <a title="https://github.com/shankarsigdel"
+              href="https://github.com/shankarsigdel"><i class="fab fa-github"></i>&nbsp;
+              GitHub
+            </a>
+            <br>
+          </div>
+        </div>      
+        <nav class="navbar navbar-dark bg-dark fixed-bottom">
+          <div class="navcss">
+            <h6 class="display-6 navbar-text">&copy; Copyright 2020. Shankar Sigdel - Portfolio</h6>
+          </div>
+        </nav>
+      </footer>
     <!-- JavaScript Section -->
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./Scripts/app.js"></script>
+    <script src="./Scripts/projects.js"></script>
+    <script src="./Scripts/eduexp.js"></script>
 </body>
 
 </html>

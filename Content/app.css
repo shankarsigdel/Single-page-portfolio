@@ -1,12 +1,3 @@
-     /*CSS Page 
-      Mid-Term Exam
-      Author: Shankar Sigdel
-      Student ID: 301110925
-      CSS a Travel Report
-      Date:   2020-07-09*/
-
-/* custom syle sheet */
-
 .navbar {
     opacity: 0.8;
 }
@@ -22,7 +13,7 @@ main {
 }
 
 article, section {
-    font-size: 1.35em;
+    font-size: 1em;
 }
 
 #contactForm {
@@ -32,3 +23,112 @@ article, section {
 html {
     scroll-behavior: smooth;
 }
+
+body
+{
+    margin-bottom: 60px;
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+    color: rgb(253, 252, 252);
+    min-height: 88vh;
+    background-image: linear-gradient(rgba(39, 216, 69, 0.7), rgba(235, 175, 175, 0.7)), url(/Assets/images/background.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: top;
+    background-position: fixed;
+}
+
+div.aboutme{
+    text-align: center;
+    /* margin-left: 200px; */
+}
+
+div.h4.title{
+    margin-left: 50px;
+}
+
+div.content{
+    text-align: center;
+    /* background-image: url("../Assets/images/diyo.jpg"); */
+}
+
+div.submitResetButtons{
+  font-size: 18px;
+}
+
+div.myInformation{
+    text-align: center;
+}
+
+form.needs-validation{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.footerContact{
+    background-color: rgb(139, 202, 181);
+    border-width: 1px;
+    border-style: solid;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1.skills{
+    text-align: center;
+}
+
+div.unorderlist{
+    line-height: 20px;
+}
+
+div.personalinfo{
+    line-height: 20px;
+}
+
+div.goToTop{
+    text-align: center;
+
+}
+
+hr.home{
+    border-style:solid; 
+    border-color: olive; 
+    border-width: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+hr.about{
+    border-style:solid; 
+    border-color: olive; 
+    border-width: 2px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+hr.product{
+    border-style:solid; 
+    border-color: olive; 
+    border-width: 2px;
+}
+
+hr.services{
+    border-style:solid; 
+    border-color: olive; 
+    border-width: 2px;
+
+}
+
+div.connectwithotherpage{
+    text-align: center;
+}
+div.navcss{
+    margin-left: 600px;
+    margin-right: 200px;
+}
+
